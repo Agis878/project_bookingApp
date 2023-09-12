@@ -1,8 +1,9 @@
 package org.example.app.config;
 
+import org.example.app.Application;
 import org.springframework.web.filter.CharacterEncodingFilter;
 import org.springframework.web.servlet.support.AbstractAnnotationConfigDispatcherServletInitializer;
-import pl.coderslab.app.Application;
+
 
 import javax.servlet.Filter;
 

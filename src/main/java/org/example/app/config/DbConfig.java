@@ -1,4 +1,4 @@
-package pl.coderslab.app.config;
+package org.example.app.config;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
@@ -13,7 +13,7 @@ public class DbConfig {
     @Bean
     public LocalEntityManagerFactoryBean entityManagerFactory() {
         LocalEntityManagerFactoryBean entityManagerFactory = new LocalEntityManagerFactoryBean();
-        entityManagerFactory.setPersistenceUnitName("bookstorePersistenceUnit");
+        entityManagerFactory.setPersistenceUnitName("bookingAppPersistenceUnit");
         return entityManagerFactory;
     }
 
