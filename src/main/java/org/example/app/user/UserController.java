@@ -20,6 +20,7 @@ public class UserController {
         this.reservationDao = reservationDao;
     }
 
+
     @GetMapping("list")
     public String getListView(Model model) {
         model.addAttribute("users",userDao.findAll());

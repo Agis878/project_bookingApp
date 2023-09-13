@@ -41,5 +41,7 @@
       </c:forEach>
     </table>
   </div>
+
+  <h3><a href="http://localhost:8080/reservations/add">Dodaj rezerwację</a> DODAJ REZERWACJĘ</h3>
 </body>
 </html>
